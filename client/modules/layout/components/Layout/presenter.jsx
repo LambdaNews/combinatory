@@ -6,7 +6,7 @@ import * as Routing from '../../../../../common/constants/routing';
 import { defaultProps, propTypes } from './props';
 import styles from './styles.css';
 
-class Layout extends React.PureComponent {
+class Layout extends React.Component {
   render() {
     const { children } = this.props;
 

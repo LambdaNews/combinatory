@@ -8,7 +8,7 @@ import { Layout } from '../../../layout/components';
 
 import { defaultProps, propTypes } from './props';
 
-class Routes extends React.PureComponent {
+class Routes extends React.Component {
   render() {
     return (
       <Router>
